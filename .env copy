@@ -1,0 +1,5 @@
+BOT_TOKEN=Your_Bot_Token
+AFK_CHANNEL_ID=AFK_CHANNEL_ID
+CHANNEL_PRINTS_ID=CHANNEL_TO_SEND_PRINTS_ID
+
+**rename this file to .env and remove this line
