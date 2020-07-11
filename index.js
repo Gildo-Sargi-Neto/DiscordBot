@@ -13,11 +13,11 @@ client.on("voiceStateUpdate", (oldState,newState) => {
     const voiceStatus = newState.selfDeaf;
     const mem = newState.member;
     if(voiceStatus){
-        client.channels.fetch(Process.env.AFK_CHANNEL_ID)
+        client.channels.fetch(process.env.AFK_CHANNEL_ID)
             .then(
                 channel => mem.voice.setChannel(channel)
                 );
     }
   })
 
-client.login(Process.env.BOT_TOKEN)
+client.login(process.env.BOT_TOKEN)
