@@ -25,7 +25,7 @@ client.on("message", msg => {
         msg.reply("Pong!")
     }
 
-    if (msg.content === "/lepramim") {
+    if (msg.content === "-lepramim") {
         msg.channel.messages.fetch(msg.reference.messageID)
             .then(
                 message => {
